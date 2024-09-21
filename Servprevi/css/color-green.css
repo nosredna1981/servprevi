@@ -1,0 +1,23 @@
+/* VARIÁVEIS COLORS */
+:root{
+    --color-destaque: #00ff1e;
+    --color-hover-destaque: #1ed32f;
+    --color-background: #0d7029;
+    --color-footer: #212124;
+  }
+body{ background-color: var(--color-background); }
+em.colors{ color: var(--color-destaque); }
+.lst-redes li a{ display: block; padding: 10px; background-color: var(--color-destaque); }
+.lst-redes li a:hover{ background-color: var(--color-hover-destaque);  }
+/* BOTÕES */
+.btn-participar{ background-color: var(--color-destaque); }
+.btn-participar:hover { background-color: var(--color-hover-destaque); }
+.groupVal span{ color: #fff; }
+.groupVal span.val{ color: var(--color-destaque); }
+.gBox, .section-obs{ background-color: #1c8233; border: 1px solid var(--color-destaque); }
+.gBox .groupVal span{ color: #fff; }
+.gBox .groupVal .val{ color: var(--color-hover-destaque); }
+.footer{ background-color: var(--color-footer); }
+.formEnvio input{ border: 1px solid var(--color-destaque); }
+.btnEnvio{ background-color: var(--color-destaque); }
+.lst-footer li a{ color: var(--color-destaque); }

@@ -1,0 +1,59 @@
+@font-face {
+      font-family: 'fontello';
+      src: url('icons/fonts/fontello.eot?18605301');
+      src: url('icons/fonts/fontello.eot?18605301#iefix') format('embedded-opentype'),
+           url('icons/fonts/fontello.woff?18605301') format('woff'),
+           url('icons/fonts/fontello.ttf?18605301') format('truetype'),
+           url('icons/fonts/fontello.svg?18605301#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+     
+     
+    .demo-icon
+    {
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      text-align: center;
+      /* opacity: .8; */
+     
+      /* For safety - reset parent styles, that can break glyph codes*/
+      font-variant: normal;
+      text-transform: none;
+     
+      /* fix buttons height, for twitter bootstrap */
+      line-height: 1em;
+     
+      /* Animation center compensation - margins should be symmetric */
+      /* remove if not needed */
+     
+      /* You can be more comfortable with increased icons size */
+      /* font-size: 120%; */
+     
+      /* Font smoothing. That was taken from TWBS */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+     
+      /* Uncomment for 3D effect */
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }
+     </style>
+    <link rel="stylesheet" href="icons/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+    <script>
+      function toggleCodes(on) {
+        var obj = document.getElementById('icons');
+      
+        if (on) {
+          obj.className += ' codesOn';
+        } else {
+          obj.className = obj.className.replace(' codesOn', '');
+        }
+      }
+      
+    </script>

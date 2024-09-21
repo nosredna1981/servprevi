@@ -1,0 +1,72 @@
+/* ==========================================================================
+   
+   medias querys para responsive design
+
+   DO MENOR PARA O MAIOR (DO CELULAR PARA O PC)
+
+   ========================================================================== */
+
+/* SMARTPHONES */
+@media screen and (max-width:500px){
+    .area{ margin-top: 0px; }
+    h2{ font-size: 2.2em; }
+    h1.logo{ width: 100%; text-align: center; }
+    .column-right{ width: 100%; position:relative; text-align: center; padding-bottom: 20px; }
+    .lstSociais{ display: block; }
+    .lst{ text-align: center; }
+    .columnLeft, .columnRight{ width: 100%; margin-top: 18px; }
+    .FaleConosco{ float: none; margin: 30px auto; }
+    .area .gBts{ margin-bottom: 40px; }
+    .boxBig{ margin: 20px 0px; }
+    .footer{ margin-top: 20px; }
+    .groupLeft{ width: 100%; padding: 0px; padding-bottom: 60px; }
+    .area .gForm{ margin-bottom: 150px; }
+    .footer .contentMin{ padding: 20px; }
+    .footer .contentMin{ padding-bottom: 60px; }
+    .gOutras{ width: 92%; }
+    .lstFooter{ padding-top: 20px; }
+
+    .areaFale span{ font-size: 1.4em; }
+    .areaFale .gBts .boxBig{  min-height: 120px; }
+
+    .imgTele{ display: none; }
+    .grid-1-12, .grid-2-12, .grid-3-12, .grid-4-12, .grid-5-12, .grid-6-12, .grid-7-12, .grid-8-12, .grid-9-12, .grid-10-12, .grid-11-12, .grid-12-12 { width: 100%; }
+}
+
+/* TABLETTES */
+@media (min-width:501px) and (max-width:959px){
+    h1.logo{ width: 100%; text-align: center; }
+    .area{ margin-top: -20px; }
+    .column-right{ width: 100%; position:relative; text-align: center; padding-bottom: 20px; }
+    .columnRight{ width: 60%; padding-right: 50px; margin-top: 0px; margin-bottom: 30px; }
+    .lst{ text-align: center; }
+    .columnLeft, .columnRight{ width: 100%; text-align: center; }
+    .footer{ margin-top: 20px; }
+    .groupLeft{ width: 100%; padding: 4px; }
+    .footer .contentMin{ padding: 20px; }
+    .imgTele{ display: none; }
+    .footer .column{ width: 100%; }
+}
+
+/* TABLETTES */
+@media (min-width:960px) and (max-width:1200px){
+    .area{ margin-top: -30px; }
+    .groupLeft{ width: 100%; padding: 4px; }
+    .footer .contentMin{ padding: 20px; }
+    .columnRight{ width: 60%; margin-bottom: 30px; }
+    .area3 .contentMin{ margin: 0px; float: right; }
+    .imgTele{ width: 35%; height: 500px; left: 20px; }
+}
+
+/* TABLETTES */
+@media (min-width:1201px) and (max-width:1500px){
+    .imgTele{ width: 25%; height: 500px; left: 20px; }
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,155 @@
+html{
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+header{ 
+    background: url('../imgs/bg-header.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+    box-shadow: 3px -3px 30px #b6b6b6;
+	-webkit-box-shadow: 3px -3px 30px #b6b6b6;
+	-moz-box-shadow: 3px -3px 30px #b6b6b6;
+}
+
+body{
+    font-family: 'lato', trebuchet;
+    letter-spacing: -0.0.5em;
+    overflow-x: hidden;
+    background-color: #f1f1f1;
+    background-repeat: no-repeat;
+}
+
+img{ max-width: 100%; height: auto; }
+
+::-moz-selection {
+    background: #173b5f;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #173b5f;
+    color: #fff;
+    text-shadow: none;
+}
+
+/* ----------------------- *\
+    ELEMENTS
+\* ----------------------- */
+
+a,
+a:active,
+a:focus{
+    text-decoration: none;
+}
+
+p{
+    font-family: 'lato', trebuchet;
+    text-align: justify;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+a{ color: #4a4a4a; font-weight: 700; transition: .5s; }
+
+h2, h3, h4, h5{ 
+    text-transform: uppercase; 
+    font-weight: 500;
+}
+
+h3{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #1fa647;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 1.3em;
+    color: #173b5f;
+    text-align: center;
+    font-weight: 800;
+}
+
+h5{
+    font-size: 1.3em;
+    color: #ed5985;
+    font-weight: 800;
+    text-align: left;
+}
+
+h6{
+    text-align: left;
+    font-size: 1.4em;
+    font-weight: 500;
+    color:#173b5f;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2.8em;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color:#173b5f;
+    text-align: center;
+}
+
+
+ul{ margin: 0px; padding: 0px; }
+
+hr{
+    position: relative;
+    display: block;
+    height: 1px;
+    border: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+div, section{
+    height: 100%;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+figure{ margin: 0px; padding: 0px; }
+
+input, textarea, select{
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+

@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+
+  RewriteEngine On
+
+  #Adiciona www. no prefixo do dom�nio
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+  #Redireciona para o HTTPS independente do dom�nio
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+  RewriteRule ^aposentadoria-por-tempo-ou-idade/?$ /aposentadoria-por-tempo-ou-idade.php [NC,L]
+  RewriteRule ^beneficio-assistencial/?$ /beneficio-assistencial.php [NC,L]
+  RewriteRule ^pensao/?$ /pensao.php [NC,L]
+  RewriteRule ^contato/?$ /contato.php [NC,L]
+  RewriteRule ^institucional/?$ /institucional.php [NC,L]
+
+</IfModule>

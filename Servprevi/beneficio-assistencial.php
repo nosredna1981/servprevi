@@ -1,0 +1,77 @@
+<!-- HEAD -->
+<?php include_once "modulos/head.php"; ?>
+<!-- HEADER -->
+<?php include_once "modulos/header.php"; ?>
+  
+  <main>  
+    <section class="sections-inside area2">
+      <div class="content">
+        <?php include "modulos/groupBts.php"; ?>
+      </div>
+      <div class="contentMin">
+        <div class="row gForm">
+          <h2>BENEFÍCIO ASSISTENCIAL AO IDOSO (BPC)</h2>
+          <form action="/senders/beneficio.php" method="POST" class="formee" id="validate">
+            <div class="grid-12-12">
+              <label for="">Sexo:</label>
+              <select name="txtGenero" id="">
+                <option value="Selecionar">Selecionar</option>  
+                <option value="Masculino">Masculino</option>  
+                <option value="Feminino">Feminino</option>  
+              </select>
+            </div>
+            <div class="grid-12-12">
+              <label for="">Nome:</label>
+              <input type="text" name="txtNome" maxlength="50" required>
+            </div>
+            <div class="grid-5-12">
+              <label for="">Nascimento:</label>
+              <input type="text" name="txtNascimento" required id="data">
+            </div>
+            <div class="grid-3-12">
+              <label for="">Idade:</label>
+              <input type="text" name="txtIdade" maxlength="2" required id="idadeM" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+            </div>
+            <div class="grid-4-12">
+              <label for="">CPF:</label>
+              <input type="text" name="txtCpf" required id="cpf">
+            </div>
+            <div class="grid-5-12">
+              <label for="">Celular:</label>
+              <input type="text" name="txtTel" required id="celular">
+            </div>
+            <div class="grid-7-12">
+              <label for="">Nome da Mãe:</label>
+              <input type="text" name="txtMae" maxlength="50" required>
+            </div>
+            
+            <div class="grid-12-12"></div>
+
+            <section class="sections-inside gOutras round">
+              <div class="grid-12-12">
+                <ul class="lst-opt">
+                  <p>Recebe algum benefício do INSS?</p>
+                  <li><input type="radio" name="txtGrupo1" value="Sim" class="option-input"><span>Sim</span></li>
+                  <li><input type="radio" name="txtGrupo1" value="Não" class="option-input"><span>Não</span></li>
+                </ul>
+              </div>
+              <div class="grid-12-12">
+                <ul class="lst-opt">
+                  <p>Tem Cadastro Único?</p>
+                  <li><input type="radio" name="txtGrupo2" value="Sim" class="option-input"><span>Sim</span></li>
+                  <li><input type="radio" name="txtGrupo2" value="Não" class="option-input"><span>Não</span></li>
+                </ul>
+              </div>
+            </section>
+
+            <div class="grid-5-12">
+              <input type="submit" class="btnEnviar">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <?php include_once "modulos/footer.php"; ?>
+    
