@@ -8,7 +8,7 @@
                 <ul class="lstSociais">
                     <li><a href="https://www.facebook.com/servprevioficial/" title="Facebook" target="_blank"><i class="demo-icon icon-facebook-squared">&#xF308;</i></a></li>
 					<li><a href="https://www.instagram.com/servprevioficial/" title="Instagram" target="_blank"><i class="demo-icon icon-instagram">&#xF16D;</i></a></li>
-                    <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521967223536" title="Whatsapp" target="_blank"><i class="demo-icon icon-whatsapp">&#xF232;</i></a></li>
+                    <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521966488372" title="Whatsapp" target="_blank"><i class="demo-icon icon-whatsapp">&#xF232;</i></a></li>
                 </ul>
                 <a href="contato" class="btn FaleConosco round" title="Fale Conosco">Fale Conosco</a>
             </div>
