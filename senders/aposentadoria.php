@@ -5,7 +5,7 @@
 
 		<div class="content">
 			<?php
-				if (($_POST['txtGenero'])=="Masculino"){
+				/*if (($_POST['txtGenero'])=="Masculino"){
 					if (($_POST['txtIdade']) < 53 OR ($_POST['txtTempo']) < 12){
 						include "../modulos/detcss.php";
 						break;
@@ -17,7 +17,7 @@
 						include '../modulos/detcss.php';
 						break;
 					}
-				}
+				}*/
 
 					require_once('../phpmailer/class.phpmailer.php');
 
@@ -34,11 +34,11 @@
 							$mailer->isSMTP();
 							$mailer->isHTML(true);
 							$mailer->CharSet = 'utf-8';
-							// $mailer->SMTPDebug = 1;
+							$mailer->SMTPDebug = 1;
 							$mailer->Port = 587; //Indica a porta de conex�o para a sa�da de e-mails
 							$mailer->Host = 'localhost'; //smtp.dominio.com.br
 							$mailer->SMTPAuth = true; //define se haver� ou n�o autentica��o no SMTP
-							// $mailer->SMTPSecure = "tls";
+							$mailer->SMTPSecure = "tls";
 							$mailer->Username = 'site@servprevi.com.br'; //Informe o e-mai o completo
 							$mailer->Password = 'servPrevi2020br'; //Senha da caixa postal
 							$mailer->setFrom('site@servprevi.com.br', 'ServPrevi'); //Obrigat�rio ser a mesma caixa postal indicada em "username"
